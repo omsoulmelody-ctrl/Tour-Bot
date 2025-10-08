@@ -1,0 +1,22 @@
+{
+  "welcome": "👋 Welcome to TourBot!\n\nI'll help you find the perfect tour.\nPress «🔍 Find Tour» to start.",
+  "start_survey": "Great! Let's find your perfect vacation.\n\n📍 Where do you want to go?\n\nFor example: Turkey, Egypt, Thailand",
+  "destination_saved": "✅ Destination: {destination}\n\n📅 When do you plan to depart? Enter date as DD.MM.YYYY\n\nFor example: 15.12.2025",
+  "date_invalid": "❌ Invalid date. Use format DD.MM.YYYY\n\nFor example: 15.12.2025",
+  "date_past": "❌ Date cannot be in the past. Enter a valid date.",
+  "date_saved": "✅ Departure date: {date}\n\n🌙 How many nights?\n\nEnter number from 3 to 21",
+  "nights_invalid": "❌ Invalid value. Enter number from 3 to 21",
+  "nights_saved": "✅ Nights: {nights}\n\n👨‍👩‍👧‍👦 How many adults (18+)?",
+  "adults_invalid": "❌ Enter number from 1 to 20",
+  "adults_saved": "✅ Adults: {adults}\n\n👶 How many children (under 18)?",
+  "children_invalid": "❌ Enter number from 0 to 10",
+  "children_saved": "✅ Children: {children}\n\n💰 What's your total budget (in rubles)?\n\nMinimum: {min_budget}₽",
+  "budget_invalid": "❌ Budget must be at least {min_budget}₽",
+  "budget_saved": "✅ Budget: {budget}₽\n\n💬 Any preferences or comments?\n\nIf not — press «Skip»",
+  "survey_complete": "🎉 Thank you! Your request #{request_id} is accepted.\n\n📋 Your data:\n🌍 Destination: {destination}\n📅 Date: {date}\n🌙 Nights: {nights}\n👥 Adults: {adults} | Children: {children}\n💰 Budget: {budget}₽\n💬 Comment: {comment}\n\nA manager will contact you soon!",
+  "back": "◀️ Back",
+  "skip": "⏭️ Skip",
+  "find_tour": "🔍 Find Tour",
+  "throttle": "⏳ Too many requests. Wait {time} sec.",
+  "progress": "{emoji} Step {current} of {total}"
+}
